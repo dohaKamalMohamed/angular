@@ -1,0 +1,18 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <span style="font-size:25px;cursor:pointer" (click)="openNav()">☰</span>
+    </div>
+   <a routerLink="./contact" class="navbar-link navbar-right">contact us</a>
+  </div>
+</nav>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">×</a>
+  <a routerLink="./services" >Services</a>
+  <a routerLink="./clients" >Clients</a>
+</div>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,16 @@
+<div class="container">
+      <div class="card card-container">
+      <h2 class='login_title text-center'>Login</h2>
+      <hr>
+
+          <form class="form-signin">
+              <span id="reauth-email" class="reauth-email"></span>
+              <p class="input_title">Email</p>
+              <input type="text" id="inputEmail" class="login_box"  required autofocus>
+              <p class="input_title">Password</p>
+              <input type="password" id="inputPassword" class="login_box"  required>
+             <div class="link"><a  routerLink="/forget_pass">forget password?</a></div> 
+              <button class="btn btn-lg btn-primary" type="button" (click)="onClick()">Login</button> 
+          </form>
+      </div>
+  </div>
