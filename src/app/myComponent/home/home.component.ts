@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+declare const openNav:any;
+declare const closeNav:any;
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -12,15 +13,13 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
- openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
+ openNav(){
+  openNav() ;
 }
 
 
- closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
+ closeNav(){
+  closeNav()
 }
   
 }

@@ -3,6 +3,11 @@
   padding: 10px;
 }
 
+span{
+  font-size:25px;
+  cursor:pointer;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -44,6 +49,6 @@
 }
 
 .container{
-  margin-top: 150px;
-  margin-left: 40%;
+  margin-top: 40px;
+  margin-left: 25%;
 }

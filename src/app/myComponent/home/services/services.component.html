@@ -1,3 +1,15 @@
-<p>
-  services works!
-</p>
+<div class="chart-container" style="position: relative; height:30vh; width:45vw">    
+    <canvas id="canvas">{{ lineChart }}</canvas>    
+  </div>  
+  
+<div class="containrt">
+    <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+    <div class="form-group">
+        <input class="form-control" name="player"  type="text" placeholder="enter player name"
+        ngModel #player="ngModel">
+        <input class="form-control" name="goal"  type="number" placeholder="enter number of goals"
+        ngModel #goal="ngModel">
+        <button class="btn btn-primary" type="submit" >add player</button>
+    </div>
+</form>
+</div>
