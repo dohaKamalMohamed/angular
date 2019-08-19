@@ -8,5 +8,7 @@ Angular task
 
 -how to use external js folder with angular 
 
+_deploy on github pages
+
 view :  https://dohakamalmohamed.github.io/angular/
 
